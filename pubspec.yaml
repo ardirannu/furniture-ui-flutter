@@ -1,0 +1,57 @@
+name: home_furniture
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=3.2.6 <4.0.0'
+
+dependencies: 
+  cupertino_icons: ^1.0.2
+  get: 4.6.6
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  uses-material-design: true
+
+  assets:
+    - assets/images/bg-splash.png
+    - assets/images/lets-go.png
+    - assets/images/baby-on-chair.png
+    - assets/images/color-splash.png
+    - assets/images/black-chair.png
+    - assets/images/green-chair.png
+    - assets/images/woman-on-chair.png
+    - assets/images/arrow.png
+    - assets/images/buy.png
+    - assets/images/left.png
+    - assets/images/face.png
+    - assets/images/search.png
+    - assets/images/heart.png
+    - assets/images/brown-table.jpg
+    - assets/images/white-chair.jpg
+    - assets/images/white-sofa.jpg
+    - assets/images/pink-chair.jpg
+    - assets/images/red.webp
+    - assets/images/titan.webp
+    - assets/images/art-deco.webp
+    - assets/images/figura.jpg
+    - assets/images/butterfly.jpg
+  
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/NotoSans-Light.ttf
+        - asset: assets/fonts/NotoSans-Regular.ttf
+        - asset: assets/fonts/NotoSans-Bold.ttf
+          weight: 700
+
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+
